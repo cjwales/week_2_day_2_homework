@@ -7,7 +7,7 @@ require_relative('../bear.rb')
 class RiverTest < MiniTest::Test
 
   def setup()
-    @amazon = River.new("Amazon")
+    @amazon = River.new("Amazon", @fish)
     @george = Bear.new("George", "Black Bear")
     @tuna = Fish.new("Tuna")
     @salmon = Fish.new("Salmon")
