@@ -4,7 +4,7 @@ class River
 
   def initialize(name)
     @name = name
-    @fish = fish
+    @fish = [@tuna, @salmon, @pike]
   end
 
   def count_fish()

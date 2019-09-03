@@ -10,7 +10,7 @@ class Bear
 
   def eat_fish(fish_name)
     @stomach.push(fish_name)
-    @amazon.fish.delete(fish_name)
+    @amazon.remove_fish(fish_name)
   end
 
   def roar()
